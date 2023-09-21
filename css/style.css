@@ -19,3 +19,15 @@ p{
     line-height: normal;
 }
 
+span .btn{
+    height: 25;
+    margin: 5px;
+    width: 62px;
+    color: #fff;
+    border-radius: 16px;
+    background-color:  #142850;
+}
+
+.para{
+    gap: 50px;
+}
