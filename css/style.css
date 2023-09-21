@@ -18,3 +18,10 @@ p{
     font-weight: 400px;
     line-height: normal;
 }
+
+.design{
+    display: flex;
+    flex-direction: column;
+    width: 418px;
+    height: 295px;
+}
