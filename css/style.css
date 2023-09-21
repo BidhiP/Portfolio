@@ -3,16 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family:  'Heebo', sans-serif;
-    
-}
+
 .new-section__wrapper{
     display: flex;
     gap: 24px;
 }
 
+.navbar{
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+}
 p{
+    font-family:  'Heebo', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400px;
