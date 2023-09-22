@@ -1,5 +1,5 @@
 /* reset css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,22 +8,25 @@
 
 /* helper css */
 
-.p-80{
-    padding: 80px;
+.p-80 {
+    padding: 20px;
 }
 
 
 /* main css  */
-.new-section__wrapper{
+.new-section__wrapper {
     display: flex;
     gap: 24px;
 }
 
 
-p{
-    margin-bottom: 20px;
+p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+
 }
-.navbar{
+
+.navbar {
     font-family: Heebo;
     font-size: 20px;
     font-style: normal;
@@ -32,53 +35,75 @@ p{
     text-align: right;
 }
 
-p.para{
+p.para {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal
 }
-p.btn{
-    font-family:  'Heebo', sans-serif;
+
+.posts p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p.btn {
+    font-family: 'Heebo', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400px;
     line-height: normal;
 }
 
-span .btn{
+span .btn {
     height: 25;
     margin: 5px;
     width: 62px;
     color: #fff;
     border-radius: 16px;
-    background-color:  #142850;
+    background-color: #142850;
 }
 
 
-.tasks{
+.tasks {
     justify-content: center;
     display: flex;
-    padding: 80px;
+    padding: 50px;
 
 }
 
-.icon svg{
+.work {
+    font-family: 'Heebo', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 50px;
+    padding-left: 200px;
+}
+
+.design {
+    gap: 1px;
+    padding-left: 20px;
+}
+
+.icon svg {
     height: 70px;
     width: 70px;
     padding-right: 30px;
 }
 
-@media (max-width:1200px){
-    .new-section__wrapper{
+
+@media (max-width:1200px) {
+    .new-section__wrapper {
         display: block;
     }
 
-    .new-section__right{
+    .new-section__right {
         margin-top: 20px;
     }
 
-    a{
+    a {
         display: none;
     }
 }
