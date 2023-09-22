@@ -1,9 +1,19 @@
+/* reset css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* helper css */
+
+.p-80{
+    padding: 80px;
+}
+
+
+/* main css  */
 .new-section__wrapper{
     display: flex;
     gap: 24px;
@@ -35,3 +45,9 @@ span .btn{
 }
 
 
+.tasks{
+    justify-content: center;
+    display: flex;
+    padding: 80px;
+
+}
