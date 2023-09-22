@@ -27,7 +27,14 @@
     line-height: normal;
     text-align: right;
 }
-p{
+
+p.para{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+p.btn{
     font-family:  'Heebo', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -52,6 +59,11 @@ span .btn{
 
 }
 
+.icon svg{
+    height: 70px;
+    width: 70px;
+    padding-right: 30px;
+}
 
 @media (max-width:1200px){
     .new-section__wrapper{
