@@ -14,7 +14,7 @@
 /* main css  */
 
 .container {
-    justify-content: start;
+    
     padding: 40px;
 }
 
@@ -156,8 +156,7 @@ span .btn {
 .icon svg{
     height: 100px;
     width: 100px;
-    padding-right: 80px;
-    padding-top: 20px;
+    padding-right: 55px;
 }
 
 .date {
@@ -166,6 +165,7 @@ span .btn {
     width: 62px;
     border-radius: 18px;
     height: 25px;
+    border: hidden;
 }
 
 .bg-light {
