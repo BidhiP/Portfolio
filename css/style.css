@@ -61,22 +61,15 @@ h1{
 .new-section__right {
     background-color: #fff;
     color: #000;
-    padding-left: 10px;
+    padding: 24px;
 }
 
 .new-section__left {
     background-color: #fff;
     color: #000;
-    padding-left: 10px;
+    padding: 24px;
 }
 
-.d-flex p {
-    margin-bottom: 10px;
-    margin-top: 20px;
-    padding: 0px 60px;
-    height: 33px;
-
-}
 
 .rounded-circle {
     width: 243px;
@@ -128,6 +121,7 @@ span .btn {
     justify-content: left;
     display: flex;
     padding: 10px;
+    align-items: center;
 }
 
 .work {
@@ -140,13 +134,11 @@ span .btn {
 
 .design {
     gap: 1px;
-    padding-left: 20px;
 }
 
 .para {
     color: #8695A4;
     margin-right: 20px;
-    height: 40px;
     width: 155px;
     align-items: baseline;
     padding-left: 10px;
@@ -154,9 +146,9 @@ span .btn {
 }
 
 .icon svg{
-    height: 100px;
-    width: 100px;
-    padding-right: 55px;
+    height: 80px;
+    width: 80px;
+    padding-right: 35px;
 }
 
 .date {
@@ -168,9 +160,26 @@ span .btn {
     border: hidden;
 }
 
+.line{
+    line-height: 60px;
+    height: 50px;
+}
+
+.no{
+    padding-right: 20px;
+    border-right: 1px solid black;
+    line-height: 18px;
+    font-size: 18px;
+}
 .bg-light {
     text-align: center;
     color: black;
+}
+
+.letters{
+    padding-left: 30px;
+    line-height: 18px;
+    font-size: 18px;
 }
 
 .download{
@@ -189,9 +198,14 @@ p.true{
 
 .text{
     text-align: center;
-    padding-right: 80px;
     padding-bottom: 20px;
 }
+
+section.icon {
+    text-align: center;
+}
+
+
 
 @media (max-width: 1200px) {
     .new-section__wrapper {
