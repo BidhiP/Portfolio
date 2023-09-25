@@ -1,130 +1,161 @@
 /* reset css */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /* helper css */
 
 .p-80 {
-    padding: 20px;
+  padding: 20px;
 }
-
 
 /* main css  */
 
-.container{
-    justify-content: end;
+.container {
+  justify-content: end;
+  padding: 48px;
 }
 
-.row{
-    padding:500px;
-    align-items: center;    
+.posts a {
+  height: 20px;
+  width: 208px;
+  color: var(--Secondry, #00a8cc);
+  text-align: right;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
 }
 
-.col-6{
-    padding-top: 24px;
-    font-family: 'Heebo', sans-serif;
+h2{
+    text-align: left;
+     padding: 20px;
+     height: 85px;
+     width: 374px;
 }
 
+.row {
+  padding: 48px;
+  align-items: center;
+}
+
+.col-6 {
+  padding-top: 24px;
+  font-family: "Heebo", sans-serif;
+}
 
 .new-section__wrapper {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
+.new-section__right{
+    background-color: #fff;
+    color: #000;
 
-p {
-    margin-bottom: 10px;
-    margin-top: 20px;
+}
+.new-section__left{
+   background-color: #fff;
+   color: #000;
+}
 
+.d-flex p {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+.rounded-circle {
+  width: 243px;
+  height: 243px;
+  border-radius: 243px;
 }
 
 .navbar {
-    font-family: Heebo;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: right;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
 }
 
 p.para {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .posts p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 p.btn {
-    font-family: 'Heebo', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400px;
-    line-height: normal;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal;
 }
 
 span .btn {
-    height: 25;
-    margin: 5px;
-    width: 62px;
-    color: #fff;
-    border-radius: 16px;
-    background-color: #142850;
+  height: 25;
+  margin: 5px;
+  width: 62px;
+  color: #fff;
+  border-radius: 16px;
+  background-color: #142850;
 }
 
-
 .tasks {
-    justify-content: center;
-    display: flex;
-    padding: 50px;
-
+  justify-content: center;
+  display: flex;
+  padding: 50px;
 }
 
 .work {
-    font-family: 'Heebo', sans-serif;
-    font-size: 34px;
-    font-weight: 400;
-    margin: 50px;
-    padding-left: 200px;
+  font-family: "Heebo", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 50px;
+  padding-left: 200px;
 }
 
 .design {
-    gap: 1px;
-    padding-left: 20px;
+  gap: 1px;
+  padding-left: 20px;
 }
 
 .icon svg {
-    height: 70px;
-    width: 70px;
-    padding-right: 60px;
+  height: 70px;
+  width: 70px;
+  padding-right: 60px;
 }
 
-.bg-light{
-    text-align: center;
-    color: black;
+.bg-light {
+  text-align: center;
+  color: black;
 }
 
+@media (max-width: 1200px) {
+  .new-section__wrapper {
+    display: block;
+  }
 
-@media (max-width:1200px) {
-    .new-section__wrapper {
-        display: block;
-    }
+  .new-section__right {
+    margin-top: 20px;
+  }
 
-    .new-section__right {
-        margin-top: 20px;
-    }
-
-    a {
-        display: none;
-    }
+  a {
+    display: none;
+  }
 }
