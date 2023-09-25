@@ -31,11 +31,12 @@
   text-decoration: none;
 }
 
-h2{
+.new-section__wrapper h2{
     text-align: left;
-     padding: 20px;
+     padding: 0px;
      height: 85px;
      width: 374px;
+     font-family: "Heebo", sans-serif ;
 }
 
 .row {
@@ -67,7 +68,8 @@ h2{
 .d-flex p {
   margin-bottom: 10px;
   margin-top: 20px;
-  padding: 10px;
+  padding: 0px 60px;
+  height: 33px;
 
 }
 
@@ -118,17 +120,17 @@ span .btn {
 }
 
 .tasks {
-  justify-content: center;
+  justify-content: left;
   display: flex;
-  padding: 50px;
+  padding: 10px;
 }
 
 .work {
   font-family: "Heebo", sans-serif;
   font-size: 34px;
   font-weight: 400;
-  margin: 50px;
-  padding-left: 200px;
+  margin: 15px;
+  padding-left: 0px;
 }
 
 .design {
