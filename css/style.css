@@ -1,164 +1,187 @@
 /* reset css */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* helper css */
 
 .p-80 {
-  padding: 20px;
+    padding: 20px;
 }
 
 /* main css  */
 
 .container {
-  justify-content: end;
-  padding: 48px;
+    justify-content: end;
+    padding: 48px;
 }
 
 .posts a {
-  height: 20px;
-  width: 208px;
-  color: var(--Secondry, #00a8cc);
-  text-align: right;
-  font-family: Heebo;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
+    height: 20px;
+    width: 208px;
+    color: var(--Secondry, #00a8cc);
+    text-align: right;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
-.new-section__wrapper h2{
+.new-section__wrapper h2 {
     text-align: left;
-     padding: 0px;
-     height: 85px;
-     width: 374px;
-     font-family: "Heebo", sans-serif ;
+    padding: 0px;
+    height: 85px;
+    width: 374px;
+    font-family: "Heebo", sans-serif;
 }
 
 .row {
-  padding: 48px;
-  align-items: center;
+    padding: 21px;
+    align-items: center;
 }
 
 .col-6 {
-  padding-top: 24px;
-  font-family: "Heebo", sans-serif;
+    padding-top: 24px;
+    font-family: "Heebo", sans-serif;
 }
 
 .new-section__wrapper {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
-.new-section__right{
+.new-section__right {
     background-color: #fff;
     color: #000;
     padding-left: 10px;
 }
-.new-section__left{
-   background-color: #fff;
-   color: #000;
-   padding-left: 10px;
+
+.new-section__left {
+    background-color: #fff;
+    color: #000;
+    padding-left: 10px;
 }
 
 .d-flex p {
-  margin-bottom: 10px;
-  margin-top: 20px;
-  padding: 0px 60px;
-  height: 33px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0px 60px;
+    height: 33px;
 
 }
 
 .rounded-circle {
-  width: 243px;
-  height: 243px;
-  border-radius: 243px;
+    width: 243px;
+    height: 243px;
+    border-radius: 243px;
 }
 
 .navbar {
-  font-family: Heebo;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-align: right;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
 }
 
 p.para {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .posts p {
-  font-family: "Heebo", sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
+    font-family: "Heebo", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 p.btn {
-  font-family: "Heebo", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400px;
-  line-height: normal;
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
 }
 
 span .btn {
-  height: 25;
-  margin: 5px;
-  width: 62px;
-  color: #fff;
-  border-radius: 16px;
-  background-color: #142850;
+    height: 25;
+    margin: 5px;
+    width: 62px;
+    color: #fff;
+    border-radius: 16px;
+    background-color: #142850;
 }
 
 .tasks {
-  justify-content: left;
-  display: flex;
-  padding: 10px;
+    justify-content: left;
+    display: flex;
+    padding: 10px;
 }
 
 .work {
-  font-family: "Heebo", sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  margin: 15px;
-  padding-left: 0px;
+    font-family: "Heebo", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 15px;
+    padding-left: 0px;
 }
 
 .design {
-  gap: 1px;
-  padding-left: 20px;
+    gap: 1px;
+    padding-left: 20px;
 }
 
-.icon svg {
-  height: 70px;
-  width: 70px;
-  padding-right: 60px;
+.para {
+    color: #8695A4;
+    margin-right: 20px;
+    height: 40px;
+    width: 155px;
+    align-items: baseline;
+    padding-left: 10px;
+
+}
+
+.icon svg{
+    height: 100px;
+    width: 100px;
+    padding-right: 80px;
+}
+
+.date {
+    background-color: #142850;
+    color: #fff;
+    width: 62px;
+    border-radius: 18px;
 }
 
 .bg-light {
-  text-align: center;
-  color: black;
+    text-align: center;
+    color: black;
+}
+
+.text{
+    text-align: center;
+    padding-right: 80px;
 }
 
 @media (max-width: 1200px) {
-  .new-section__wrapper {
-    display: block;
-  }
+    .new-section__wrapper {
+        display: block;
+    }
 
-  .new-section__right {
-    margin-top: 20px;
-  }
+    .new-section__right {
+        margin-top: 20px;
+    }
 
-  a {
-    display: none;
-  }
+    a {
+        display: none;
+    }
 }
