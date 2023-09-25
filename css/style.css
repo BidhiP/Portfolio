@@ -56,11 +56,12 @@ h2{
 .new-section__right{
     background-color: #fff;
     color: #000;
-
+    padding-left: 10px;
 }
 .new-section__left{
    background-color: #fff;
    color: #000;
+   padding-left: 10px;
 }
 
 .d-flex p {
