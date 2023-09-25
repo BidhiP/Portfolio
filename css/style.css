@@ -14,7 +14,7 @@
 /* main css  */
 
 .container {
-    justify-content: end;
+    justify-content: start;
     padding: 48px;
 }
 
@@ -165,6 +165,15 @@ span .btn {
 .bg-light {
     text-align: center;
     color: black;
+}
+
+.download{
+    width: 208px;
+    height: 47px;
+    background-color: #ff6464;
+    color: #fff;
+    border-radius: 2px;
+    border: hidden;
 }
 
 .text{
