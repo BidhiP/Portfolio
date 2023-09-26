@@ -13,15 +13,16 @@
 
 /* main css  */
 
-.container {
-    
-    padding: 20px;
-}
+
 
 h1{
     padding-bottom: 40px;
     height: 105px;
     width: 506px;
+}
+
+h1:hover{
+    color: #ff6464;
 }
 
 .posts a {
@@ -38,8 +39,7 @@ h1{
 }
 
 .new-section{
-    height: 365px;
-    
+    padding: 24px 0px 50px 0px;    
 }
 
 .new-section__wrapper h2 {
@@ -48,6 +48,10 @@ h1{
     height: 85px;
     width: 374px;
     font-family: "Heebo", sans-serif;
+}
+
+h2:hover{
+    color: #ff6464;
 }
 
 .row {
@@ -114,6 +118,16 @@ p.btn {
     line-height: normal;
 }
 
+.new-section__left p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.new-section__right p{
+    font-size: 20px;
+    padding-top: 10px;   
+}
+
 span .btn {
     height: 25;
     margin: 5px;
@@ -140,6 +154,7 @@ span .btn {
 
 .design {
     gap: 1px;
+    margin-bottom: 100px;
 }
 
 .intro{
@@ -165,6 +180,10 @@ span .btn {
     height: 80px;
     width: 80px;
     padding-right: 35px;
+}
+
+svg:hover{
+    color: #00a8cc;
 }
 
 .date {
@@ -208,6 +227,10 @@ span .btn {
     margin:6px 8px;
 }
 
+.download:hover {
+    opacity: 0.4;
+}
+
 p.true{
     padding-left: 2px;
     margin-bottom: 0rem;
@@ -222,6 +245,7 @@ p.true{
 
 section.icon {
     text-align: center;
+    padding-top: 100px;
 }
 
 hr{
