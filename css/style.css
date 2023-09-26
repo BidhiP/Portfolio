@@ -38,7 +38,7 @@ h1{
 }
 
 .new-section{
-    height: 360px;
+    height: 365px;
     
 }
 
@@ -144,9 +144,9 @@ span .btn {
 
 .intro{
     padding-top: 30px;
-    margin-bottom: 1rem;
+    margin-bottom: 24px;
     font-family: "Heebo", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: normal;
     font-style: normal;
 
@@ -231,16 +231,3 @@ hr{
 
 
 
-@media (max-width: 1200px) {
-    .new-section__wrapper {
-        display: block;
-    }
-
-    .new-section__right {
-        margin-top: 20px;
-    }
-
-    a {
-        display: none;
-    }
-}
