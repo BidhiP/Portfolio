@@ -136,6 +136,10 @@ span .btn {
     gap: 1px;
 }
 
+.intro{
+    padding-bottom: 30px;
+}
+
 .para {
     color: #8695A4;
     margin-right: 20px;
@@ -189,7 +193,7 @@ span .btn {
     color: #fff;
     border-radius: 2px;
     border: hidden;
-    margin-top: 47px;
+    margin:10px 10px;
 }
 
 p.true{
@@ -199,10 +203,15 @@ p.true{
 .text{
     text-align: center;
     padding-bottom: 20px;
+    margin-top: 51px;
 }
 
 section.icon {
     text-align: center;
+}
+
+hr{
+    padding: 83px;
 }
 
 
