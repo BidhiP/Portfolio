@@ -15,11 +15,13 @@
 
 .container {
     
-    padding: 40px;
+    padding: 20px;
 }
 
 h1{
     padding-bottom: 40px;
+    height: 105px;
+    width: 506px;
 }
 
 .posts a {
@@ -33,6 +35,11 @@ h1{
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+}
+
+.new-section{
+    height: 396px;
+    
 }
 
 .new-section__wrapper h2 {
@@ -49,7 +56,6 @@ h1{
 }
 
 .col-6 {
-    padding-top: 24px;
     font-family: "Heebo", sans-serif;
 }
 
@@ -120,7 +126,7 @@ span .btn {
 .tasks {
     justify-content: left;
     display: flex;
-    padding: 10px;
+    padding: 15px;
     align-items: center;
 }
 
@@ -137,7 +143,13 @@ span .btn {
 }
 
 .intro{
-    padding-bottom: 30px;
+    padding: 30px 0px;
+    margin-bottom: 0rem;
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal;
+
 }
 
 .para {
@@ -193,17 +205,19 @@ span .btn {
     color: #fff;
     border-radius: 2px;
     border: hidden;
-    margin:20px 10px;
+    margin:20px 8px;
 }
 
 p.true{
-    padding-left: 5px;
+    padding-left: 2px;
+    margin-bottom: 0rem;
 }
 
 .text{
     text-align: center;
-    padding-bottom: 20px;
-    margin-top: 51px;
+    padding:10px 20px;
+    margin: 20px 51px;
+     
 }
 
 section.icon {
@@ -211,7 +225,7 @@ section.icon {
 }
 
 hr{
-    padding: 83px;
+    padding: 31px;
 }
 
 
