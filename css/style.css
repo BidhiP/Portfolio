@@ -39,7 +39,7 @@ h1:hover{
 }
 
 .new-section{
-    padding: 24px 0px 50px 0px;    
+    padding: 24px 0px 55px 0px;    
 }
 
 .new-section__wrapper h2 {
@@ -182,9 +182,6 @@ span .btn {
     padding-right: 35px;
 }
 
-svg:hover{
-    color: #00a8cc;
-}
 
 .date {
     background-color: #142850;
@@ -245,7 +242,7 @@ p.true{
 
 section.icon {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 hr{
@@ -257,3 +254,16 @@ hr{
 .instagram:hover{
     color: #ff6464;
 }
+
+.facebook:hover{
+    color: #3b5998;
+}
+
+.twitter:hover{
+    color:#1DA1F2;
+}
+
+.linkedin:hover{
+    color:#0077B5;
+}
+
