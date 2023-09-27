@@ -225,7 +225,9 @@ span .btn {
 }
 
 .download:hover {
-    opacity: 0.4;
+    background:transparent;
+    color: #ff6464;
+    border: 1px solid #ff6464;
 }
 
 p.true{
@@ -253,20 +255,36 @@ hr{
 
 .instagram:hover{
     color: #ff6464;
+    cursor: pointer;
 }
 
 .facebook:hover{
     color: #3b5998;
+    cursor: pointer;
 }
 
 .twitter:hover{
     color:#1DA1F2;
+    cursor: pointer;
 }
 
 .linkedin:hover{
     color:#0077B5;
+    cursor: pointer;
 }
 
+span.para:hover{
+    background: transparent;
+    color: #142850;
+    border:1px solid #142850;
+}
 
+.title a{
+    text-decoration: none;
+}
 
-
+.title a:hover{
+    cursor: pointer;
+    transition-delay: 0.25s;
+    color: #ff6464;
+}
