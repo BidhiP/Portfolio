@@ -15,13 +15,13 @@
 
 
 
-h1{
+h1 {
     padding-bottom: 40px;
     height: 105px;
     width: 506px;
 }
 
-h1:hover{
+h1:hover {
     color: #ff6464;
 }
 
@@ -38,8 +38,8 @@ h1:hover{
     text-decoration: none;
 }
 
-.new-section{
-    padding: 24px 0px 55px 0px;    
+.new-section {
+    padding: 24px 0px 55px 0px;
 }
 
 .new-section__wrapper h2 {
@@ -50,7 +50,7 @@ h1:hover{
     font-family: "Heebo", sans-serif;
 }
 
-h2:hover{
+h2:hover {
     color: #ff6464;
 }
 
@@ -118,14 +118,14 @@ p.btn {
     line-height: normal;
 }
 
-.new-section__left p{
+.new-section__left p {
     font-size: 20px;
     padding-top: 10px;
 }
 
-.new-section__right p{
+.new-section__right p {
     font-size: 20px;
-    padding-top: 10px;   
+    padding-top: 10px;
 }
 
 span .btn {
@@ -157,7 +157,7 @@ span .btn {
     margin-bottom: 100px;
 }
 
-.intro{
+.intro {
     padding-top: 30px;
     margin-bottom: 24px;
     font-family: "Heebo", sans-serif;
@@ -176,7 +176,7 @@ span .btn {
 
 }
 
-.icon svg{
+.icon svg {
     height: 80px;
     width: 80px;
     padding-right: 35px;
@@ -192,54 +192,55 @@ span .btn {
     border: hidden;
 }
 
-.line{
+.line {
     line-height: 60px;
     height: 50px;
 }
 
-.no{
+.no {
     padding-right: 20px;
     border-right: 1px solid black;
     line-height: 18px;
     font-size: 18px;
 }
+
 .bg-light {
     text-align: center;
     color: black;
 }
 
-.letters{
+.letters {
     padding-left: 30px;
     line-height: 18px;
     font-size: 18px;
 }
 
-.download{
+.download {
     width: 208px;
     height: 47px;
     background-color: #ff6464;
     color: #fff;
     border-radius: 2px;
     border: hidden;
-    margin:6px 8px;
+    margin: 6px 8px;
 }
 
 .download:hover {
-    background:transparent;
+    background: transparent;
     color: #ff6464;
     border: 1px solid #ff6464;
 }
 
-p.true{
+p.true {
     padding-left: 2px;
     margin-bottom: 0rem;
 }
 
-.text{
+.text {
     text-align: center;
-    padding:10px 20px;
+    padding: 10px 20px;
     margin: 20px 51px;
-     
+
 }
 
 section.icon {
@@ -247,43 +248,43 @@ section.icon {
     padding-top: 200px;
 }
 
-hr{
+hr {
     padding: 5px;
     margin-left: 17px;
 }
 
 
-.instagram:hover{
+.instagram:hover {
     color: #ff6464;
     cursor: pointer;
 }
 
-.facebook:hover{
+.facebook:hover {
     color: #3b5998;
     cursor: pointer;
 }
 
-.twitter:hover{
-    color:#1DA1F2;
+.twitter:hover {
+    color: #1DA1F2;
     cursor: pointer;
 }
 
-.linkedin:hover{
-    color:#0077B5;
+.linkedin:hover {
+    color: #0077B5;
     cursor: pointer;
 }
 
-span.para:hover{
+span.para:hover {
     background: transparent;
     color: #142850;
-    border:1px solid #142850;
+    border: 1px solid #142850;
 }
 
-.title a{
+.title a {
     text-decoration: none;
 }
 
-.title a:hover{
+.title a:hover {
     cursor: pointer;
     transition-delay: 0.25s;
     color: #ff6464;
