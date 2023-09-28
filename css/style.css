@@ -13,7 +13,9 @@
 
 /* main css  */
 
-
+body{
+    width:100%;
+}
 
 h1 {
     padding-bottom: 40px;
@@ -40,13 +42,14 @@ h1:hover {
 
 .new-section {
     padding: 24px 0px 55px 0px;
+    width: 100%;
 }
 
 .new-section__wrapper h2 {
     text-align: left;
     padding: 0px;
     height: 85px;
-    width: 374px;
+    width: 100%;
     font-family: "Heebo", sans-serif;
 }
 
@@ -55,7 +58,7 @@ h2:hover {
 }
 
 .row {
-    padding: 21px;
+    padding: 10px;
     align-items: center;
 }
 
@@ -286,6 +289,6 @@ span.para:hover {
 
 .title a:hover {
     cursor: pointer;
-    transition-delay: 0.25s;
     color: #ff6464;
 }
+
