@@ -292,3 +292,10 @@ span.para:hover {
     color: #ff6464;
 }
 
+@media only screen and (max-width: 768px) {
+    .new-section__wrapper{
+        flex-direction: column;
+    }
+
+
+  }
