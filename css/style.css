@@ -20,7 +20,7 @@ body{
 h1 {
     padding-bottom: 40px;
     height: 105px;
-    width: 506px;
+    width: 100%;
 }
 
 h1:hover {
@@ -304,6 +304,43 @@ span.para:hover {
         flex-direction: column;
     }
 
+
+    .posts{
+        justify-content: center;
+    }
+
+ 
+    .posts a{
+        display: none;
+    }
+    .download{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:20px;
+    }
+
+    .work{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tasks{
+        flex-direction: column;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .new-section__wrapper{
+        flex-direction: column;
+    }
+
+
     .posts{
         justify-content: center;
     }
@@ -312,6 +349,25 @@ span.para:hover {
         display: none;
     }
     .download{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:20px;
+    }
+
+    .work{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tasks{
+        flex-direction: column;
         width: 100%;
     }
+    .row{
+        flex-direction: column;
+    }
   }
+
+  
