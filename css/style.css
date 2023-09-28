@@ -17,10 +17,6 @@ body {
     width: 100%;
 }
 
-.iamge{
-    height:20px; 
-    width:20px;
-}
 
 h1 {
     padding-bottom: 40px;
@@ -32,6 +28,11 @@ h1:hover {
     color: #ff6464;
 }
 
+.image{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
 .posts a {
 
     color: var(--Secondry, #00a8cc);
@@ -347,6 +348,10 @@ span.para:hover {
         justify-content: center;
         align-items: center;
         margin-left: 15px;
+    }
+    .image{
+        height : 150px;
+        width: 300px;
     }
 
     .work {
