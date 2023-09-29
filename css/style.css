@@ -28,10 +28,17 @@ h1:hover {
     color: #ff6464;
 }
 
-.image{
+figure{
     border-radius: 50%;
     height: 300px;
     width: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 .posts a {
 
@@ -370,26 +377,3 @@ span.para:hover {
     }
 }
 
-@media only screen and (max-width: 600px) {
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
