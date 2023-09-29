@@ -175,14 +175,14 @@ span .btn {
 .work {
     font-family: "Heebo", sans-serif;
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 300;
     margin: 15px;
     padding-left: 0px;
 }
 
 .design {
     gap: 1px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 
 .intro {
@@ -339,6 +339,10 @@ h1{
     font-size: 40px;
     padding-bottom: 21px;
 }
+
+.intro{
+    padding: 27px;
+}
     .posts {
         justify-content: center;
     }
@@ -390,8 +394,17 @@ h1{
     .tasks {
         flex-direction: column;
         width: 100%;
+        padding-top: 20px;
     }
-
+    img.stock.col-4.rounded-3 {
+        width: 100%;
+    }
+    hr{
+        margin-top: 0px;
+    }
+    .design{
+        margin-bottom: 0px;
+    }
     .row {
         flex-direction: column;
         width: 100%;
