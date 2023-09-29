@@ -132,7 +132,7 @@ p.para {
 
 .posts p {
     font-family: "Heebo", sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
 
@@ -336,8 +336,8 @@ span.para:hover {
     }
 
 h1{
-    font-size: 50px;
-    padding-bottom: 31px;
+    font-size: 40px;
+    padding-bottom: 21px;
 }
     .posts {
         justify-content: center;
@@ -367,12 +367,18 @@ h1{
         display: none;
     }
 
+    .new-section__wrapper h2{
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+
     .download {
         width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
 
