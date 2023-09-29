@@ -333,10 +333,16 @@ span.para:hover {
     .download{
         order: 2;
     }
-
+    .design.flex-column {
+        padding-bottom: 0px;
+    }
 h1{
     font-size: 40px;
     padding-bottom: 21px;
+}
+
+.para{
+    font-size: 500;
 }
 
 .intro{
@@ -377,7 +383,7 @@ h1{
 
 
     .download {
-        width: 50%;
+        width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -388,6 +394,7 @@ h1{
     .work {
         display: flex;
         justify-content: center;
+       
     }
 
     .tasks {
@@ -428,10 +435,15 @@ h1{
 
         order: 2;
     }
-
+    .design.flex-column {
+        padding-bottom: 0px;
+    }
 h1{
     font-size: 40px;
     padding-bottom: 21px;
+}
+.para{
+    font-size: 500;
 }
 
 .intro{
@@ -517,7 +529,9 @@ h1{
         order: 1;
         text-align: center;
     }
-
+    .design.flex-column {
+        padding-bottom: 0px;
+    }
     .download{
         order: 2;
     }
@@ -525,6 +539,10 @@ h1{
 h1{
     font-size: 40px;
     padding-bottom: 21px;
+}
+
+.para{
+    font-size: 600;
 }
 
 .intro{
@@ -576,6 +594,7 @@ h1{
     .work {
         display: flex;
         justify-content: center;
+        
     }
 
     .tasks {
