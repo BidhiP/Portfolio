@@ -18,6 +18,8 @@ body {
 }
 
 
+
+
 h1 {
     padding-bottom: 40px;
     height: 105px;
@@ -315,12 +317,28 @@ span.para:hover {
     color: #ff6464;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .new-section__wrapper {
         flex-direction: column;
     }
+    
+    .col-12.col-lg-6.pt-2.bio-img{
+        order: 0;
+    }
 
+    .col-12.col-lg-6.bio-text{
+        order: 1;
+        text-align: center;
+    }
 
+    .download{
+        order: 2;
+    }
+
+h1{
+    font-size: 50px;
+    padding-bottom: 31px;
+}
     .posts {
         justify-content: center;
     }
@@ -356,10 +374,7 @@ span.para:hover {
         align-items: center;
         margin-left: 15px;
     }
-    .image{
-        height : 150px;
-        width: 300px;
-    }
+
 
     .work {
         display: flex;
