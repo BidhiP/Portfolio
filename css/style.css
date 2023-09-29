@@ -57,12 +57,12 @@ figure{
 .new-section {
     padding: 24px 0px 55px 0px;
     width: 100%;
+    background:  #EDF7FA;
 }
 
 .new-section__wrapper h2 {
     text-align: left;
     padding: 0px;
-    /* height: 85px; */
     width: 100%;
     font-family: "Heebo", sans-serif;
 }
@@ -124,7 +124,7 @@ p.para {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    padding-top: 20px;
 }
 
 .posts {
@@ -138,7 +138,7 @@ p.para {
     font-family: "Heebo", sans-serif;
     font-size: 30px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
 
 }
 
@@ -197,7 +197,7 @@ span .btn {
 .para {
     color: #8695A4;
     margin-right: 20px;
-    width: 100%;
+    
     padding-left: 10px;
 
 }
@@ -395,6 +395,9 @@ h1{
         justify-content: center;
        
     }
+    .posts p{
+        font-weight: 300;
+    }
 
     .tasks {
         flex-direction: column;
@@ -495,6 +498,9 @@ h1{
         display: flex;
         justify-content: center;
     }
+    .posts p{
+        font-weight: 300;
+    }
 
     .tasks {
         flex-direction: column;
@@ -536,7 +542,7 @@ h1{
     }
 
 h1{
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 21px;
 }
 
@@ -578,6 +584,10 @@ h1{
     .new-section__wrapper h2{
         font-size: 42px;
         margin-bottom: 20px;
+    }
+
+    .posts p{
+        font-weight: 300;
     }
 
 
