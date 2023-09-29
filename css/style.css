@@ -116,9 +116,9 @@ h2:hover {
     border: none;
 }
 
-.design.flex-column {
+/* .design.flex-column {
     padding-bottom: 177px;
-}
+} */
 
 p.para {
     font-size: 16px;
@@ -184,7 +184,7 @@ span .btn {
     padding-left: 0px;
 }
  
-.intro {
+.banner__wrapper {
     padding-top: 30px;
     margin-bottom: 24px;
     font-family: "Heebo", sans-serif;
@@ -401,7 +401,6 @@ h1{
 
     .tasks {
         flex-direction: column;
-        width: 100%;
         padding-top: 20px;
     }
     img.stock.col-4.rounded-3 {
