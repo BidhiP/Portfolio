@@ -108,6 +108,12 @@ h2:hover {
     border-radius: 243px;
 }
 
+.col-12.col-lg-6.bio-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar {
     font-family: Heebo;
     font-size: 20px;
@@ -128,6 +134,7 @@ p.para {
     font-style: normal;
     font-weight: 400;
     padding-top: 20px;
+    width: 100%;
 }
 
 .posts {
@@ -295,8 +302,8 @@ hr {
     cursor: pointer;
 }
 
-span.para{
-    color:#8695A4;
+span.para {
+    color: #8695A4;
 }
 
 span.para:hover {
@@ -345,7 +352,7 @@ span.para:hover {
         font-weight: 700;
         line-height: 40px;
         padding-bottom: 21px;
-        color:#21243D;
+        color: #21243D;
     }
 
     .para {
@@ -472,7 +479,11 @@ span.para:hover {
         padding-bottom: 21px;
         font-weight: 700;
         line-height: 40px;
-        color:#21243D;
+        color: #21243D;
+    }
+
+    .d-flex {
+        padding: 20px 0px;
     }
 
     .para {
@@ -528,11 +539,13 @@ span.para:hover {
     }
 
     .new-section__right p {
-        padding:0px 10px;
+        padding: 0px 10px;
     }
+
     .new-section__left p {
-        padding:0px 10px;
+        padding: 0px 10px;
     }
+
     .work {
         display: flex;
         justify-content: center;
