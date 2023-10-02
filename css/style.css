@@ -172,7 +172,7 @@ span .btn {
 .tasks {
     justify-content: left;
     display: flex;
-    padding: 15px;
+    padding: 18px;
     align-items: center;
 }
 
@@ -422,6 +422,13 @@ h1{
     .new-section__wrapper {
         flex-direction: column;
     }
+
+    .new-section__left{
+        padding: 11px;
+    }
+    .new-section__right{
+        padding: 11px;
+    }
     
     .col-12.col-lg-6.pt-2.bio-img{
         order: 0;
@@ -479,7 +486,7 @@ h1{
     }
 
     .new-section__wrapper h2{
-        font-size: 42px;
+        font-size: 30px;
         margin-bottom: 20px;
     }
 
@@ -496,9 +503,11 @@ h1{
     .work {
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
     .posts p{
         font-weight: 300;
+        padding: 10px;
     }
 
     .tasks {
@@ -523,6 +532,7 @@ h1{
 @media only screen and (max-width: 320px) {
     .new-section__wrapper {
         flex-direction: column;
+        padding: 10px;
     }
     
     .col-12.col-lg-6.pt-2.bio-img{
