@@ -528,10 +528,10 @@ span.para:hover {
     }
 
     .new-section__right p {
-        padding: 10px;
+        padding:0px 10px;
     }
     .new-section__left p {
-        padding: 10px;
+        padding:0px 10px;
     }
     .work {
         display: flex;
