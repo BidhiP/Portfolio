@@ -22,8 +22,9 @@ body {
 
 h1 {
     padding-bottom: 40px;
-    height: 105px;
-    width: 100%;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
 }
 
 h1:hover {
@@ -174,7 +175,9 @@ span .btn {
     display: flex;
     padding: 18px;
     align-items: center;
+    gap: 20px;
 }
+
 
 .work {
     font-family: "Heebo", sans-serif;
@@ -216,6 +219,8 @@ span .btn {
     border-radius: 18px;
     height: 25px;
     border: hidden;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .line {
@@ -248,7 +253,7 @@ span .btn {
     color: #fff;
     border-radius: 2px;
     border: hidden;
-    margin: 6px 8px;
+    margin: 10px 10px;
 }
 
 .download:hover {
@@ -377,7 +382,6 @@ h1{
 
     .new-section__wrapper h2{
         font-size: 42px;
-        margin-bottom: 20px;
     }
 
 
@@ -387,6 +391,10 @@ h1{
         justify-content: center;
         align-items: center;
         margin-left: 10px;
+    }
+
+    .d-flex{
+        padding: 12px;
     }
 
 
@@ -421,6 +429,7 @@ h1{
 @media only screen and (max-width: 1000px) {
     .new-section__wrapper {
         flex-direction: column;
+       
     }
 
     .new-section__left{
@@ -486,8 +495,8 @@ h1{
     }
 
     .new-section__wrapper h2{
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 28px;
+        padding:10px
     }
 
 
@@ -503,17 +512,21 @@ h1{
     .work {
         display: flex;
         justify-content: center;
-        padding: 10px;
+        margin: 24px 0px;
+        text-align: center;
     }
     .posts p{
-        font-weight: 300;
+        font-weight: 400;
         padding: 10px;
+        font-size: 25px;
+        line-height: 60px;
     }
 
     .tasks {
         flex-direction: column;
         width: 100%;
-        padding-top: 20px;
+        gap: 20px;
+        padding: 0px;
     }
     img.stock.col-4.rounded-3 {
         width: 100%;
@@ -612,6 +625,7 @@ h1{
     .work {
         display: flex;
         justify-content: center;
+        align-items: center;
         
     }
 
