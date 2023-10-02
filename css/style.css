@@ -307,6 +307,10 @@ hr {
     cursor: pointer;
 }
 
+span.para{
+    color:#8695A4;
+}
+
 span.para:hover {
     background: transparent;
     color: #142850;
