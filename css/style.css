@@ -25,6 +25,7 @@ h1 {
     font-weight: 700;
     font-size: 44px;
     line-height: 60px;
+    color: #21243D;
 }
 
 h1:hover {
@@ -116,13 +117,11 @@ h2:hover {
     text-align: right;
 }
 
+
 .navbar-toggler {
     border: none;
 }
 
-/* .design.flex-column {
-    padding-bottom: 177px;
-} */
 
 p.para {
     font-size: 16px;
@@ -164,14 +163,7 @@ p.btn {
     padding-top: 10px;
 }
 
-span .btn {
-    height: 25;
-    margin: 5px;
-    width: 62px;
-    color: #fff;
-    border-radius: 16px;
-    background-color: #142850;
-}
+
 
 .tasks {
     justify-content: left;
@@ -225,10 +217,6 @@ span .btn {
     font-weight: 700;
 }
 
-.line {
-    line-height: 60px;
-    height: 50px;
-}
 
 .no {
     padding-right: 20px;
@@ -353,8 +341,11 @@ span.para:hover {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
         padding-bottom: 21px;
+        color:#21243D;
     }
 
     .para {
@@ -477,8 +468,11 @@ span.para:hover {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 32px;
         padding-bottom: 21px;
+        font-weight: 700;
+        line-height: 40px;
+        color:#21243D;
     }
 
     .para {
