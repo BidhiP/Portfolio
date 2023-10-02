@@ -527,7 +527,12 @@ span.para:hover {
         margin-left: 10px;
     }
 
-
+    .new-section__right p {
+        padding: 10px;
+    }
+    .new-section__left p {
+        padding: 10px;
+    }
     .work {
         display: flex;
         justify-content: center;
