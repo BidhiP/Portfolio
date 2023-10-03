@@ -1,14 +1,15 @@
 
 // utilities
-@import "./utilities/variables.scss";
+@import "./utilities/variables";
 
 // layouts 
-@import "./layouts/typography.scss";
+@import "./layouts/typography";
+@import "./layouts/hero";
 
 // compoents
-@import "./components/button.scss";
+@import "./components/button";
 
 
 // pages
-@import "./pages/images.scss"
+@import "./pages/images"
 

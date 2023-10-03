@@ -1,9 +1,3 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
-
 h1 {
   font-size: 56px;
 }
@@ -12,18 +6,21 @@ button {
   font-size: 22px;
 }
 
+.hero__wrapper {
+  display: flex;
+}
+.hero__wrapper__content__intro {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 button {
   background-color: rgba(170, 34, 51, 0.1333333333);
   color: #ccc;
 }
 
-img{
+img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
 }
-
-.posts{
-  display: flex;
-}
-
