@@ -1,5 +1,6 @@
 h1 {
-  font-size: 56px;
+  color: #21243D;
+  font-size: 44px;
 }
 
 button {
@@ -9,9 +10,15 @@ button {
 .hero__wrapper {
   display: flex;
 }
-.hero__wrapper__content__intro {
-  font-size: 16px;
-  font-weight: 400;
+.hero__content {
+  width: 50%;
+}
+.hero__content .download {
+  background-color: #f33290;
+  color: white;
+}
+.hero__img {
+  width: 50%;
 }
 
 button {
@@ -24,3 +31,12 @@ img {
   width: 200px;
   border-radius: 50%;
 }
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */
