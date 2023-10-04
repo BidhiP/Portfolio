@@ -13,8 +13,14 @@ button{
 .new-section__wrapper{
     display: flex;
     background: $background-color;
-    padding: 0px 20px;
+    padding:20px;
     .new-section__left{
+        background: $background;
+        font-family: $font-family;
+        color: $font-color;
+        font-size:$font-size;
+    }
+    .new-section__right{
         background: $background;
         font-family: $font-family;
         color: $font-color;
