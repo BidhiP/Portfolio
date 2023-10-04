@@ -33,6 +33,14 @@ p {
   padding: 17px;
 }
 
+.tasks {
+  display: flex;
+  padding: 80px;
+}
+.tasks img {
+  padding: 0px 18px;
+}
+
 .hero {
   padding: 129px;
 }
@@ -81,6 +89,7 @@ img {
 }
 .posts a {
   justify-content: end;
+  text-decoration: none;
 }
 
 .container {
