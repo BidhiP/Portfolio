@@ -8,3 +8,17 @@ h1 {
 button{
     font-size: 22px;
 }
+
+.new-section__wrapper{
+    .new-section__left{
+        font-family: $font-family;
+        color: $font-color;
+        font-size:$font-size;
+    }
+}
+
+p{
+    font-family: $font-family;
+    color: $font-color;
+    font-size:$font-size;
+}

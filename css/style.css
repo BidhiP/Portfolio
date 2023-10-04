@@ -7,6 +7,23 @@ button {
   font-size: 22px;
 }
 
+.new-section__wrapper .new-section__left {
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+  font-size: 16px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 129px;
+}
 .hero__wrapper {
   display: flex;
 }
@@ -14,7 +31,7 @@ button {
   width: 50%;
 }
 .hero__content .download {
-  background-color: #f33290;
+  background-color: #ff6464;
   color: white;
 }
 .hero__content .intro {
