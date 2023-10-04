@@ -17,6 +17,14 @@ button {
   background-color: #f33290;
   color: white;
 }
+.hero__content .intro {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .hero__img {
   width: 50%;
 }
