@@ -7,6 +7,7 @@ h1 {
 
 button{
     font-size: 22px;
+    border: hidden;
 }
 
 .new-section__wrapper{
@@ -21,4 +22,5 @@ p{
     font-family: $font-family;
     color: $font-color;
     font-size:$font-size;
+    padding: 17px;
 }
