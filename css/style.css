@@ -33,6 +33,11 @@ p {
   padding: 17px;
 }
 
+.work {
+  font-size: 22px;
+  padding: 15px;
+}
+
 .tasks {
   display: flex;
   padding: 80px;
@@ -50,6 +55,7 @@ p {
 }
 .tasks .para {
   color: #8695A4;
+  font-family: "Heebo", sans-serif;
 }
 
 .hero {
@@ -99,8 +105,8 @@ img {
   font-weight: 400;
 }
 .posts a {
-  justify-content: end;
   text-decoration: none;
+  padding-top: 20px;
 }
 
 .container {
