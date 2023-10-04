@@ -1,6 +1,4 @@
 .hero {
-  display: flex;
-  justify-content: space-between;
   padding:129px;
   &__wrapper {
     display: flex;
@@ -10,6 +8,7 @@
     .download {
       background-color: $primary-color;
       color: white;
+      width: 200px;
     }
     .intro {
       color:  #21243d;

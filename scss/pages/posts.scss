@@ -1,6 +1,12 @@
 .posts{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    .true{
+        font-size: 22px;
+        font-family:$font-family;
+        font-weight: $font-weight;
+    }
     a{
         justify-content:end;
     }
