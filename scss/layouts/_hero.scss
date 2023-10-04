@@ -4,11 +4,13 @@
     display: flex;
   }
   &__content {
-    width: 50%;
+    width: 100%;
+    padding: 0px 115px;
     .download {
       background-color: $primary-color;
       color: white;
       width: 200px;
+      padding-left:20px ;
     }
     .intro {
       color:  #21243d;

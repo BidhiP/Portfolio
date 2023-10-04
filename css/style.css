@@ -65,12 +65,14 @@ p {
   display: flex;
 }
 .hero__content {
-  width: 50%;
+  width: 100%;
+  padding: 0px 115px;
 }
 .hero__content .download {
   background-color: #ff6464;
   color: white;
   width: 200px;
+  padding-left: 20px;
 }
 .hero__content .intro {
   color: #21243d;
