@@ -42,4 +42,18 @@ p{
     img{
         padding: 0px 18px;
     }
+
+    a{
+        text-decoration: none;
+    }
+
+    .date{
+        background-color: $button-color;
+        color: $background;
+        border-radius:16px;
+    }
+
+    .para{
+        color: $light-color;
+    }
 }

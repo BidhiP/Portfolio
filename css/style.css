@@ -40,6 +40,17 @@ p {
 .tasks img {
   padding: 0px 18px;
 }
+.tasks a {
+  text-decoration: none;
+}
+.tasks .date {
+  background-color: #142850;
+  color: #fff;
+  border-radius: 16px;
+}
+.tasks .para {
+  color: #8695A4;
+}
 
 .hero {
   padding: 129px;
