@@ -45,4 +45,10 @@ img {
   width: 30px;
   display: flex;
   padding: 0px 30px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
