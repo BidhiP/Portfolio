@@ -67,13 +67,14 @@ p {
   display: flex;
 }
 .hero__content {
-  width: 100%;
+  width: 80%;
   padding: 0px 115px;
 }
 .hero__content .download {
   background-color: #ff6464;
   color: white;
-  width: 200px;
+  height: 47px;
+  width: 208px;
 }
 .hero__content .intro {
   color: #21243D;
@@ -85,7 +86,6 @@ p {
   padding: 30px 0px;
 }
 .hero__img {
-  width: 15%;
   height: 243px;
   width: 243px;
 }
