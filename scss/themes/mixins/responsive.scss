@@ -1,0 +1,15 @@
+$mobile-sm: 575px !default;
+$tablet: 767px !default;
+$desktop-mini: 992px !default;
+$desktop: 1024px !default;
+$laptop: 1199px !default;
+$fullhd: 1440px !default;
+$fullxl: 1600px !default;
+
+@mixin respond-medium{
+    @media(max-width:767px){
+        .new-section__wrapper{
+            flex-direction: column;
+        }
+    }
+} 

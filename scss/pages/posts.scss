@@ -1,14 +1,17 @@
-.posts{
-    display:flex;
-    justify-content: space-between;
-
-    .true{
-        font-size: 22px;
-        font-family: $font-family;
-        font-weight: $font-weight;
-    }
-    a{
-        text-decoration: none;
-        padding-top:20px;
+.new-section{
+    background: #EDF7FA;
+    .posts{
+        display:flex;
+        justify-content: space-between;
+    
+        .true{
+            font-size: 22px;
+            font-family: $font-family;
+            font-weight: $font-weight;
+        }
+        a{
+            text-decoration: none;
+            padding-top:20px;
+        }
     }
 }
