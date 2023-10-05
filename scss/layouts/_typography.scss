@@ -15,14 +15,14 @@ button{
     background: $background-color;
     padding:20px;
     .new-section__left{
-        background: $background;
+        background: $pointer-color;
         font-family: $font-family;
         color: $font-color;
         font-size:$font-size;
         padding: 24px;
     }
     .new-section__right{
-        background: $background;
+        background: $button-primary;
         font-family: $font-family;
         color: $font-color;
         font-size:$font-size;
@@ -39,7 +39,7 @@ p{
 
 .work{
     font-size: 22px;
-    padding: 15px;
+    padding-top: 30px;
 }
 .tasks{
     display: flex;
