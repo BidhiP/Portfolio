@@ -40,30 +40,35 @@ p{
 .work{
     font-size: 22px;
     padding-top: 30px;
+    .tasks{
+        display: flex;
+        padding:80px 0px;
+    
+        img{
+            padding: 0px 18px;
+    
+        }
+    
+        a{
+            text-decoration: none;
+            padding-top: 20px;
+        }
+    
+        .date{
+            background-color: $button-color;
+            color: $background;
+            border-radius:16px;
+        }
+    
+        .para{
+            color: $light-color;
+            font-family: $font-family;
+            padding: 20px 0px;
+        }
 }
-.tasks{
-    display: flex;
-    padding:80px 0px;
 
-    img{
-        padding: 0px 18px;
-
-    }
-
-    a{
-        text-decoration: none;
-        padding-top: 20px;
-    }
-
-    .date{
-        background-color: $button-color;
-        color: $background;
-        border-radius:16px;
-    }
-
-    .para{
-        color: $light-color;
-        font-family: $font-family;
-        padding: 20px 0px;
+    .icons{
+        display: flex;
+        justify-content:center;
     }
 }
