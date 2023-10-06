@@ -127,6 +127,13 @@ img {
   margin-left: auto;
 }
 
+.icons .icon {
+  display: flex;
+  justify-content: end;
+  height: 100px;
+  width: 100px;
+}
+
 * {
   padding: 0px;
   margin: 0px;
