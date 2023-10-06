@@ -8,20 +8,23 @@ button {
   border: hidden;
 }
 
-.new-section__wrapper {
-  display: flex;
-  background: #fff;
-  padding: 20px;
+.new-section {
+  padding: 40px;
 }
-.new-section__wrapper .new-section__left {
-  background: rgba(51, 51, 255, 0.2666666667);
+.new-section .new-section__wrapper {
+  display: flex;
+  background: #EDF7FA;
+  gap: 30px;
+}
+.new-section .new-section__wrapper .new-section__left {
+  background: #fff;
   font-family: "Heebo", sans-serif;
   color: #21243D;
   font-size: 16px;
   padding: 24px;
 }
-.new-section__wrapper .new-section__right {
-  background: #ccc;
+.new-section .new-section__wrapper .new-section__right {
+  background: #fff;
   font-family: "Heebo", sans-serif;
   color: #21243D;
   font-size: 16px;
@@ -41,7 +44,7 @@ p {
 }
 .work .tasks {
   display: flex;
-  padding: 80px 0px;
+  gap: 40px;
 }
 .work .tasks img {
   padding: 0px 18px;
@@ -129,14 +132,14 @@ img {
 
 .icons {
   display: flex;
+  justify-content: center;
+  padding: 0px 30px;
 }
 .icons .icon {
-  padding: 0px 20px;
   display: flex;
-}
-.icons .icon .icons {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
+  padding: 10px;
 }
 
 * {

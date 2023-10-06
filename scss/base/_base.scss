@@ -8,13 +8,15 @@
 }
 
 .icons {
-  display: flex;
-  .icon {
-    padding: 0px 20px;
     display: flex;
-    .icons {
-      height: 100px;
-      width: 100px;
-    }
+    justify-content: center;
+    padding: 0px 30px;
+  .icon {
+      display: flex;
+      height: 120px;
+      width: 120px;
+      padding: 10px;
+   
+
   }
 }
