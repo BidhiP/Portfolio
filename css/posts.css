@@ -1,0 +1,14 @@
+.new-section {
+  background: #EDF7FA;
+}
+.new-section .posts {
+  display: flex;
+  justify-content: space-between;
+}
+.new-section .posts .true {
+  font-size: 22px;
+}
+.new-section .posts a {
+  text-decoration: none;
+  padding-top: 20px;
+}/*# sourceMappingURL=posts.css.map */
