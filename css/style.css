@@ -50,6 +50,9 @@ p {
 .tasks img {
   padding: 0px 18px;
 }
+.tasks .design {
+  padding: 0px 10px;
+}
 .tasks a {
   text-decoration: none;
   padding-top: 20px;
