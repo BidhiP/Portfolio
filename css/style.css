@@ -127,9 +127,14 @@ img {
   margin-left: auto;
 }
 
-.icons .icon {
+.icons {
   display: flex;
-  justify-content: end;
+}
+.icons .icon {
+  padding: 0px 20px;
+  display: flex;
+}
+.icons .icon .icons {
   height: 100px;
   width: 100px;
 }

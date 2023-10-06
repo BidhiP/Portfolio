@@ -1,17 +1,20 @@
-.container{
-    max-width: 1320px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.container {
+  max-width: 1320px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.icons{
-    .icon{
-        display:flex;
-        justify-content: end;
-        height: 100px;
-        width: 100px;
+.icons {
+  display: flex;
+  .icon {
+    padding: 0px 20px;
+    display: flex;
+    .icons {
+      height: 100px;
+      width: 100px;
     }
+  }
 }
