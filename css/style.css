@@ -44,7 +44,7 @@ p {
 }
 .work .tasks {
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 .work .tasks img {
   padding: 0px 18px;
@@ -137,8 +137,6 @@ img {
 }
 .icons .icon {
   display: flex;
-  height: 120px;
-  width: 120px;
   padding: 10px;
 }
 
