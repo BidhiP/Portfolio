@@ -42,23 +42,25 @@ p {
   font-size: 22px;
   padding-top: 30px;
 }
-.work .tasks {
+
+.tasks {
   display: flex;
   gap: 30px;
 }
-.work .tasks img {
+.tasks img {
   padding: 0px 18px;
 }
-.work .tasks a {
+.tasks a {
   text-decoration: none;
   padding-top: 20px;
 }
-.work .tasks .date {
+.tasks .date {
   background-color: #142850;
   color: #fff;
   border-radius: 16px;
+  margin-right: 20px;
 }
-.work .tasks .para {
+.tasks .para {
   color: #8695A4;
   font-family: "Heebo", sans-serif;
   padding: 20px 0px;

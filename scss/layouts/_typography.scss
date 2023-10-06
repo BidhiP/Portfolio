@@ -42,6 +42,7 @@ p{
 .work{
     font-size: 22px;
     padding-top: 30px;
+}
     .tasks{
         display: flex;
         gap:30px;
@@ -60,6 +61,7 @@ p{
             background-color: $button-color;
             color: $background;
             border-radius:16px;
+            margin-right: 20px;
         }
     
         .para{
@@ -67,6 +69,6 @@ p{
             font-family: $font-family;
             padding: 20px 0px;
         }
-}
+
 
 }
