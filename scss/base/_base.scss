@@ -8,10 +8,15 @@
 }
 
 .icons {
-    display: flex;
-    justify-content: center;
-    padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30px;
   .icon {
-      display: flex;
+    svg {
+      width: 80px;
+      margin: 20px;
+      padding: 10px;
+    }
   }
 }
