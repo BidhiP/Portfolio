@@ -139,10 +139,11 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 30px;
-  width: 80px;
-  margin: 20px;
-  padding: 10px;
+}
+.icons .icon {
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
