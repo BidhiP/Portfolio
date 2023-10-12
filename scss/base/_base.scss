@@ -9,11 +9,11 @@
 
 .icons {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-    .icon{
-    gap:30px;
-    align-items:center;
-    justify-content: center;
+  .icon {
+    svg {
+      height:30px;
+      width:40px;
+    }
   }
 }

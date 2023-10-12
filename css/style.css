@@ -137,13 +137,11 @@ img {
 
 .icons {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
-.icons .icon {
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
+.icons .icon svg {
+  height: 30px;
+  width: 40px;
 }
 
 * {
