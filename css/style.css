@@ -140,8 +140,6 @@ img {
   flex-direction: row;
   justify-content: center;
   height: 30px;
-}
-.icons .icon svg {
   width: 80px;
   margin: 20px;
   padding: 10px;
