@@ -14,7 +14,9 @@
     svg {
       height:30px;
       width:40px;
-      
     }
+  }
+  @include tablet{
+    background-color: #22df;
   }
 }

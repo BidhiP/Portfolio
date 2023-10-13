@@ -1,6 +1,6 @@
-
 // utilities
 @import "./utilities/variables";
+@import "./utilities/responsive";
 
 // layouts 
 @import "./layouts/typography";
@@ -12,13 +12,12 @@
 
 // pages
 @import "./pages/images";
-@import "./pages/posts.scss";
+@import "./pages/posts";
 
 // base
 @import "./base/base";
 @import "./base/reset";
 
-// themes
-@import "./themes/mixins/_responsive.scss"
+
 
 
