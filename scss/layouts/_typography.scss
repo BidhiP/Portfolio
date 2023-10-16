@@ -29,6 +29,10 @@ button{
             font-size:$font-size;
             padding: 24px;
         }
+        @include tablet{
+            flex-direction: column;
+            order: 0;
+        }
     }
 }
 

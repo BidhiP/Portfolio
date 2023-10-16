@@ -30,6 +30,12 @@ button {
   font-size: 16px;
   padding: 24px;
 }
+@media screen and (min-width: 767px), print {
+  .new-section .new-section__wrapper {
+    flex-direction: column;
+    order: 0;
+  }
+}
 
 p {
   font-family: "Heebo", sans-serif;
@@ -146,6 +152,11 @@ img {
 @media screen and (min-width: 767px), print {
   .icons {
     background-color: #2222dd;
+  }
+}
+@media screen and (min-width: 575px), print {
+  .icons {
+    background-color: #32ff21;
   }
 }
 
