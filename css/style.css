@@ -154,10 +154,12 @@ img {
 .icons {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 .icons .icon svg {
-  height: 30px;
-  width: 40px;
+  height: 50px;
+  width: 100px;
+  padding: 1px 2px;
 }
 
 * {
