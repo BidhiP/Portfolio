@@ -56,12 +56,27 @@ p {
 .tasks img {
   padding: 0px 18px;
 }
+@media screen and (min-width: 1024px) {
+  .tasks img {
+    order: 0;
+  }
+}
 .tasks .design {
   padding: 0px 10px;
+}
+@media screen and (min-width: 1024px) {
+  .tasks .design {
+    order: 1;
+  }
 }
 .tasks a {
   text-decoration: none;
   padding-top: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .tasks a {
+    order: 2;
+  }
 }
 .tasks .date {
   background-color: #142850;

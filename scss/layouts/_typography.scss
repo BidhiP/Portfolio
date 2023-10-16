@@ -46,6 +46,7 @@ p{
 .work{
     font-size: 22px;
     padding-top: 30px;
+        
 }
     .tasks{
         display: flex;
@@ -53,16 +54,28 @@ p{
     
         img{
             padding: 0px 18px;
-    
+
+            @include desktop{
+                order: 0;
+            }
+            
         }
 
         .design{
             padding: 0px 10px;
+
+            @include desktop{
+                order: 1;
+            }
         }
     
         a{
             text-decoration: none;
             padding-top: 20px;
+
+            @include desktop{
+                order: 2;
+            }
         }
     
         .date{
