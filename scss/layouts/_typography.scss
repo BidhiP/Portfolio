@@ -51,12 +51,17 @@ p{
     .tasks{
         display: flex;
         gap:30px;
+
+        @include desktop{
+            display: flex;
+            flex-direction: column;
+        }
     
         img{
             padding: 0px 18px;
 
             @include desktop{
-                order: 1;
+                order: 0;
             }
             
         }
@@ -65,13 +70,17 @@ p{
             padding: 0px 10px;
 
             @include desktop{
-                order: 2;
+                order: 1;
             }
         }
     
         a{
             text-decoration: none;
             padding-top: 20px;
+
+            @include desktop{
+                order: 2;
+            }
         }
     
         .date{
@@ -79,11 +88,19 @@ p{
             color: $background;
             border-radius:16px;
             margin-right: 20px;
+
+            @include desktop{
+                order: 2;
+            }
         }
     
         .para{
             color: $light-color;
             font-family: $font-family;
             padding: 20px 0px;
+
+            @include desktop{
+                order: 3;
+            }
         }
 }
