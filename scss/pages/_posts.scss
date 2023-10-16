@@ -9,6 +9,13 @@
             font-size: 22px;
             font-family: $font-family;
             font-weight: $font-weight;
+
+            @include tablet-max{
+                position: relative;
+                top: 50%;
+                left: 40%;
+                font-size: 33px;
+            }
         }
         a{
             text-decoration: none;

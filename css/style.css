@@ -55,6 +55,14 @@ p {
   font-size: 22px;
   padding-top: 30px;
 }
+@media screen and (max-width: 991px) {
+  .work {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    font-size: 33px;
+  }
+}
 
 .tasks {
   display: flex;
@@ -117,11 +125,6 @@ p {
 
 .hero {
   padding: 100px;
-}
-@media screen and (max-width: 991px) {
-  .hero {
-    flex-direction: column;
-  }
 }
 @media screen and (max-width: 991px) {
   .hero {
@@ -195,6 +198,14 @@ img {
   font-size: 22px;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
+}
+@media screen and (max-width: 991px) {
+  .new-section .posts .true {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    font-size: 33px;
+  }
 }
 .new-section .posts a {
   text-decoration: none;

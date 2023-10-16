@@ -54,6 +54,12 @@ p{
     font-size: 22px;
     padding-top: 30px;
         
+    @include tablet-max{
+        position: relative;
+        top: 50%;
+        left: 40%;
+        font-size: 33px;
+    }
   
 }
     .tasks{
