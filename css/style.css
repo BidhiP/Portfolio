@@ -3,6 +3,13 @@ h1 {
   font-size: 44px;
 }
 
+@media screen and (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    order: 0;
+  }
+}
+
 button {
   font-size: 22px;
   border: hidden;
@@ -30,7 +37,7 @@ button {
   font-size: 16px;
   padding: 24px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .new-section .new-section__wrapper {
     flex-direction: column;
     order: 0;
@@ -48,18 +55,12 @@ p {
   font-size: 22px;
   padding-top: 30px;
 }
-@media screen and (min-width: 1024px) {
-  .work {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 .tasks {
   display: flex;
   gap: 30px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 991px) {
   .tasks {
     display: flex;
     flex-direction: column;
@@ -68,15 +69,17 @@ p {
 .tasks img {
   padding: 0px 18px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 991px) {
   .tasks img {
     order: 0;
+    height: 100%;
+    width: 100%;
   }
 }
 .tasks .design {
   padding: 0px 10px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 991px) {
   .tasks .design {
     order: 1;
   }
@@ -85,7 +88,7 @@ p {
   text-decoration: none;
   padding-top: 20px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 991px) {
   .tasks a {
     order: 2;
   }
@@ -96,7 +99,7 @@ p {
   border-radius: 16px;
   margin-right: 20px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 991px) {
   .tasks .date {
     order: 2;
   }

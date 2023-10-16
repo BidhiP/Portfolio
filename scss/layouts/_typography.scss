@@ -4,6 +4,13 @@ h1 {
     
 }
 
+.hero{
+    @include mobile{
+        flex-direction: column;
+        order: 0;
+    }
+}
+
 
 button{
     font-size: 22px;
@@ -29,7 +36,7 @@ button{
             font-size:$font-size;
             padding: 24px;
         }
-        @include mobile{
+        @include tablet-max{
             flex-direction: column;
             order: 0;
         }
@@ -47,16 +54,13 @@ p{
     font-size: 22px;
     padding-top: 30px;
         
-    @include desktop{
-        display: flex;
-        flex-direction: column;
-    }
+  
 }
     .tasks{
         display: flex;
         gap:30px;
 
-        @include desktop{
+        @include tablet-max{
             display: flex;
             flex-direction: column;
         }
@@ -64,8 +68,10 @@ p{
         img{
             padding: 0px 18px;
 
-            @include desktop{
+            @include tablet-max{
                 order: 0;
+                height: 100%;
+                width: 100%;
             }
             
         }
@@ -73,7 +79,7 @@ p{
         .design{
             padding: 0px 10px;
 
-            @include desktop{
+            @include tablet-max{
                 order: 1;
             }
         }
@@ -82,7 +88,7 @@ p{
             text-decoration: none;
             padding-top: 20px;
 
-            @include desktop{
+            @include tablet-max{
                 order: 2;
             }
         }
@@ -93,7 +99,7 @@ p{
             border-radius:16px;
             margin-right: 20px;
 
-            @include desktop{
+            @include tablet-max{
                 order: 2;
             }
         }
