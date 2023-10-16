@@ -5,8 +5,9 @@ h2 {
 }
 
 .hero{
-    @include mobile{
+    @include tablet-max{
         flex-direction: column;
+
         order: 0;
     }
 }

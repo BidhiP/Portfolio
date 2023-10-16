@@ -2,7 +2,10 @@
   padding: 100px;
 
   @include tablet-max{
+    display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 
   h1 {

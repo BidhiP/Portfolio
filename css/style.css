@@ -3,7 +3,7 @@ h2 {
   font-size: 44px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .hero {
     flex-direction: column;
     order: 0;
@@ -128,7 +128,10 @@ p {
 }
 @media screen and (max-width: 991px) {
   .hero {
+    display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 }
 .hero h1 {
