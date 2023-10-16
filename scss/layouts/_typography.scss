@@ -56,7 +56,7 @@ p{
             padding: 0px 18px;
 
             @include desktop{
-                order: 0;
+                order: 1;
             }
             
         }
@@ -65,17 +65,13 @@ p{
             padding: 0px 10px;
 
             @include desktop{
-                order: 1;
+                order: 2;
             }
         }
     
         a{
             text-decoration: none;
             padding-top: 20px;
-
-            @include desktop{
-                order: 2;
-            }
         }
     
         .date{

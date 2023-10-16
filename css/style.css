@@ -58,7 +58,7 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .tasks img {
-    order: 0;
+    order: 1;
   }
 }
 .tasks .design {
@@ -66,17 +66,12 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .tasks .design {
-    order: 1;
+    order: 2;
   }
 }
 .tasks a {
   text-decoration: none;
   padding-top: 20px;
-}
-@media screen and (min-width: 1024px) {
-  .tasks a {
-    order: 2;
-  }
 }
 .tasks .date {
   background-color: #142850;
@@ -163,21 +158,6 @@ img {
 .icons .icon svg {
   height: 30px;
   width: 40px;
-}
-@media screen and (min-width: 767px), print {
-  .icons {
-    background-color: #2222dd;
-  }
-}
-@media screen and (min-width: 575px), print {
-  .icons {
-    background-color: #fff;
-  }
-}
-@media screen and (max-width: 767px) {
-  .icons {
-    background-color: #21243D;
-  }
 }
 
 * {

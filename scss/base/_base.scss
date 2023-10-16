@@ -16,15 +16,4 @@
       width:40px;
     }
   }
-  @include tablet{
-    background-color: #22df;
-  }
-
-  @include mobile-sm{
-    background-color: $background;
-  }
-
-  @include mobile{
-    background-color: $font-color;
-  }
 }
