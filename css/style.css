@@ -30,7 +30,7 @@ button {
   font-size: 16px;
   padding: 24px;
 }
-@media screen and (min-width: 767px), print {
+@media screen and (max-width: 767px) {
   .new-section .new-section__wrapper {
     flex-direction: column;
     order: 0;
@@ -156,7 +156,12 @@ img {
 }
 @media screen and (min-width: 575px), print {
   .icons {
-    background-color: #32ff21;
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 767px) {
+  .icons {
+    background-color: #21243D;
   }
 }
 

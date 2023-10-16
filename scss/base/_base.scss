@@ -21,6 +21,10 @@
   }
 
   @include mobile-sm{
-    background-color: #32ff21;
+    background-color: $background;
+  }
+
+  @include mobile{
+    background-color: $font-color;
   }
 }
