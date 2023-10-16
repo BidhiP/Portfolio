@@ -48,17 +48,29 @@ p {
   font-size: 22px;
   padding-top: 30px;
 }
+@media screen and (min-width: 1024px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .tasks {
   display: flex;
   gap: 30px;
+}
+@media screen and (min-width: 1024px) {
+  .tasks {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .tasks img {
   padding: 0px 18px;
 }
 @media screen and (min-width: 1024px) {
   .tasks img {
-    order: 1;
+    order: 0;
   }
 }
 .tasks .design {
@@ -66,12 +78,17 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .tasks .design {
-    order: 2;
+    order: 1;
   }
 }
 .tasks a {
   text-decoration: none;
   padding-top: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .tasks a {
+    order: 2;
+  }
 }
 .tasks .date {
   background-color: #142850;
@@ -79,10 +96,20 @@ p {
   border-radius: 16px;
   margin-right: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .tasks .date {
+    order: 2;
+  }
+}
 .tasks .para {
   color: #8695A4;
   font-family: "Heebo", sans-serif;
   padding: 20px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .tasks .para {
+    order: 3;
+  }
 }
 
 .hero {
@@ -140,6 +167,11 @@ img {
 .new-section .posts a {
   text-decoration: none;
   padding-top: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .new-section .posts a {
+    display: none;
+  }
 }
 
 .container {

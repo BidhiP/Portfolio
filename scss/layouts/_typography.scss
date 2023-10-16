@@ -47,6 +47,10 @@ p{
     font-size: 22px;
     padding-top: 30px;
         
+    @include desktop{
+        display: flex;
+        flex-direction: column;
+    }
 }
     .tasks{
         display: flex;
