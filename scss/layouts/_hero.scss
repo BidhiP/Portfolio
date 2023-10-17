@@ -1,18 +1,14 @@
 .hero {
   padding: 100px;
 
-  @include tablet-max{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
+ 
 
   h1 {
     color: $font-color;
     font-size:44px;
 
-    @include tablet-max{
+    @include tablet{
+      display: flex;
       order: 1;
     }
     
@@ -20,7 +16,10 @@
   &__wrapper {
     display: flex;
 
-    // @include
+    @include tablet{
+      display: flex;
+      flex-direction: column;
+    }
   }
   &__content {
     width: 80%;
@@ -30,7 +29,7 @@
       height: 47px;
       width: 208px;
 
-      @include tablet-max{
+      @include tablet{
         order: 2;
       }
     }
@@ -39,9 +38,13 @@
       font-family: $font-family;
       font-size: 16px;
       font-style: normal;
-      font-weight: $font-weight;
+      font-weight: $font-weight-600;
       line-height: normal;
       padding: 30px 0px;
+
+      @include tablet{
+        text-align: center;
+      }
 
     }
   }
@@ -49,7 +52,8 @@
     height: 243px;
     width: 243px;
 
-    @include tablet-max{
+    @include tablet{
+      display: flex;
       order: 0;
       
     }
