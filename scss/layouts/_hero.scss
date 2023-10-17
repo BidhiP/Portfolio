@@ -1,10 +1,13 @@
 .hero {
   padding: 100px;
 
-  @include desktop-max{
+  @include desktop{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 40%;
+
   }
  
 
@@ -12,7 +15,7 @@
     color: $font-color;
     font-size:44px;
 
-    @include desktop-max{
+    @include desktop{
       display: flex;
       order: 1;
     }
@@ -21,7 +24,9 @@
   &__wrapper {
     display: flex;
 
-    @include desktop-max{
+    @include desktop{
+      display: flex;
+      flex-direction: column;
       text-align: center;
     }
   }
@@ -33,9 +38,8 @@
       height: 47px;
       width: 208px;
 
-      @include desktop-max{
-        order: 3;
-        align-items: center;
+      @include desktop{
+        position: relative;
       }
     }
     .intro {
@@ -47,9 +51,8 @@
       line-height: normal;
       padding: 30px 0px;
 
-      @include desktop-max{
-        order: 2;
-        text-align: center;
+      @include desktop{
+      
       }
 
     }
@@ -58,9 +61,9 @@
     height: 243px;
     width: 243px;
 
-    @include desktop-max{
+    @include desktop{
   
-      order: 0;
+      order: -1;
       
     }
   }
