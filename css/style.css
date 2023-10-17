@@ -3,7 +3,7 @@ h2 {
   font-size: 44px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .hero {
     flex-direction: column;
     order: 0;
@@ -37,7 +37,7 @@ button {
   font-size: 16px;
   padding: 24px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .new-section .new-section__wrapper {
     flex-direction: column;
     order: 0;
@@ -55,7 +55,7 @@ p {
   font-size: 22px;
   padding-top: 30px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .work {
     position: relative;
     top: 50%;
@@ -68,7 +68,7 @@ p {
   display: flex;
   gap: 30px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .tasks {
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ p {
 .tasks img {
   padding: 0px 18px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .tasks img {
     order: 0;
     height: 100%;
@@ -87,7 +87,7 @@ p {
 .tasks .design {
   padding: 0px 10px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .tasks .design {
     order: 1;
   }
@@ -96,7 +96,7 @@ p {
   text-decoration: none;
   padding-top: 20px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .tasks a {
     order: 2;
   }
@@ -107,7 +107,7 @@ p {
   border-radius: 16px;
   margin-right: 20px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .tasks .date {
     order: 2;
   }
@@ -117,7 +117,7 @@ p {
   font-family: "Heebo", sans-serif;
   padding: 20px 0px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1198px) {
   .tasks .para {
     order: 3;
   }
@@ -126,11 +126,18 @@ p {
 .hero {
   padding: 100px;
 }
+@media screen and (max-width: 1198px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .hero h1 {
   color: #21243D;
   font-size: 44px;
 }
-@media screen and (min-width: 767px), print {
+@media screen and (max-width: 1198px) {
   .hero h1 {
     display: flex;
     order: 1;
@@ -139,10 +146,9 @@ p {
 .hero__wrapper {
   display: flex;
 }
-@media screen and (min-width: 767px), print {
+@media screen and (max-width: 1198px) {
   .hero__wrapper {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
   }
 }
 .hero__content {
@@ -154,9 +160,10 @@ p {
   height: 47px;
   width: 208px;
 }
-@media screen and (min-width: 767px), print {
+@media screen and (max-width: 1198px) {
   .hero__content .download {
-    order: 2;
+    order: 3;
+    align-items: center;
   }
 }
 .hero__content .intro {
@@ -168,8 +175,9 @@ p {
   line-height: normal;
   padding: 30px 0px;
 }
-@media screen and (min-width: 767px), print {
+@media screen and (max-width: 1198px) {
   .hero__content .intro {
+    order: 2;
     text-align: center;
   }
 }
@@ -177,9 +185,8 @@ p {
   height: 243px;
   width: 243px;
 }
-@media screen and (min-width: 767px), print {
+@media screen and (max-width: 1198px) {
   .hero__img {
-    display: flex;
     order: 0;
   }
 }
@@ -207,7 +214,7 @@ img {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .new-section .posts .true {
     position: relative;
     top: 50%;
@@ -219,12 +226,12 @@ img {
   text-decoration: none;
   padding-top: 20px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .new-section .posts a {
     display: none;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1198px) {
   .new-section .posts {
     width: 100%;
     height: 100%;
