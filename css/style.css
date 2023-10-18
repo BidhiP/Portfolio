@@ -3,13 +3,6 @@ h2 {
   font-size: 44px;
 }
 
-@media screen and (max-width: 1198px) {
-  .hero {
-    flex-direction: column;
-    order: 0;
-  }
-}
-
 button {
   font-size: 22px;
   border: hidden;
@@ -18,19 +11,19 @@ button {
 .new-section {
   padding: 40px;
 }
-.new-section .new-section__wrapper {
+.new-section__wrapper {
   display: flex;
   background: #EDF7FA;
   gap: 30px;
 }
-.new-section .new-section__wrapper .new-section__left {
+.new-section__wrapper__left {
   background: #fff;
   font-family: "Heebo", sans-serif;
   color: #21243D;
   font-size: 16px;
   padding: 24px;
 }
-.new-section .new-section__wrapper .new-section__right {
+.new-section__wrapper .new-section__right {
   background: #fff;
   font-family: "Heebo", sans-serif;
   color: #21243D;
@@ -38,7 +31,7 @@ button {
   padding: 24px;
 }
 @media screen and (max-width: 1198px) {
-  .new-section .new-section__wrapper {
+  .new-section__wrapper {
     flex-direction: column;
     order: 0;
   }
@@ -177,6 +170,11 @@ p {
   font-weight: 400;
   line-height: normal;
   padding: 30px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .hero__content .intro {
+    order: 0;
+  }
 }
 .hero__img {
   height: 243px;

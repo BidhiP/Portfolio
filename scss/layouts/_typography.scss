@@ -4,13 +4,6 @@ h2 {
     
 }
 
-.hero{
-    @include desktop-max{
-        flex-direction: column;
-
-        order: 0;
-    }
-}
 
 
 button{
@@ -19,11 +12,11 @@ button{
 }
 .new-section{
     padding: 40px;
-    .new-section__wrapper{
+    &__wrapper{
         display: flex;
         background: $color;
         gap:30px;
-        .new-section__left{
+        &__left{
             background: $background;
             font-family: $font-family;
             color: $font-color;
