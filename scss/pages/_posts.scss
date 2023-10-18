@@ -1,66 +1,67 @@
-.new-section{
-    background: #EDF7FA;
-    
-    .posts{
-        display:flex;
-        justify-content: space-between;
-    
-        .true{
-            font-size: 22px;
-            font-family: $font-family;
-            font-weight: $font-weight-600;
+.new-section {
+  background: #edf7fa;
 
-            @include tablet{
-                position: relative;
-                
-                left: 40%;
-                font-size: 33px;
-            }
-        }
-         a{
-            text-decoration: none;
-            padding-top:20px;
+  .posts {
+    display: flex;
+    justify-content: space-between;
 
-            @include tablet{
-                display:none;
-            }
-        }
-        button {
-            font-size: 22px;
-            border: hidden;
-          }
-          .new-section {
-            padding: 40px;
-            &__wrapper {
-              display: flex;
-              background-color: $color;
-              gap: 30px;
-            }
-            &__left {
-              background: $background;
-              font-family: $font-family;
-              color: $font-color;
-              font-size: $font-size;
-              padding: 24px;
-            }
-            &__right {
-              background: $background;
-              font-family: $font-family;
-              color: $font-color;
-              font-size: $font-size;
-              padding: 24px;
-            }
-            @include tablet {
-              flex-direction: column;
-              order: 0;
-            }
-          }
-        @include tablet{
-            width: 100%;
-            height: 100%;
-        }
+    .true {
+      font-size: 22px;
+      font-family: $font-family;
+      font-weight: $font-weight-600;
+
+      @include tablet {
+        position: relative;
+
+        left: 40%;
+        font-size: 33px;
+      }
     }
+    a {
+      text-decoration: none;
+      padding-top: 20px;
+
+      @include tablet {
+        display: none;
+      }
+    }
+    button {
+      font-size: 22px;
+      border: hidden;
+    }
+    .new-section {
+      padding: 40px;
+      &_wrapper {
+        display: flex;
+        background-color: $color;
+        gap: 30px;
+        @include tablet {
+          flex-direction: column;
+          order: 0;
+        }
+      }
+      &__left {
+        background: $background;
+        font-family: $font-family;
+        color: $font-color;
+        font-size: $font-size;
+        padding: 24px;
+      }
+      &__right {
+        background: $background;
+        font-family: $font-family;
+        color: $font-color;
+        font-size: $font-size;
+        padding: 24px;
+      }
+      @include tablet {
+        flex-direction: column;
+        order: 0;
+      }
+    }
+    @include tablet {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
-
-    
-

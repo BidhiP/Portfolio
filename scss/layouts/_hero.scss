@@ -1,29 +1,26 @@
 .hero {
   padding: 100px;
 
-  @include desktop{
+  @include tablet {
     display: flex;
     flex-direction: column;
     position: relative;
     top: 50%;
-
   }
- 
 
   h1 {
     color: $font-color;
-    font-size:44px;
+    font-size: 44px;
 
-    @include desktop{
+    @include tablet {
       display: flex;
       order: 1;
     }
-    
-}
+  }
   &__wrapper {
     display: flex;
 
-    @include desktop{
+    @include tablet {
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -37,7 +34,7 @@
       height: 47px;
       width: 208px;
 
-      @include desktop{
+      @include tablet {
         position: relative;
       }
     }
@@ -50,20 +47,20 @@
       line-height: normal;
       padding: 30px 0px;
 
-      @include desktop{
-      order: 0;
+      @include tablet {
+        order: 0;
       }
-
     }
   }
   &__img {
     height: 243px;
     width: 243px;
 
-    @include desktop{
-  
-      order: -1;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
       
+      order: -1;
     }
   }
 }

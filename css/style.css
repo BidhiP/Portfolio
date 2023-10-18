@@ -13,7 +13,7 @@ p {
 .hero {
   padding: 100px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px), print {
   .hero {
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ p {
   color: #21243D;
   font-size: 44px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px), print {
   .hero h1 {
     display: flex;
     order: 1;
@@ -34,7 +34,7 @@ p {
 .hero__wrapper {
   display: flex;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px), print {
   .hero__wrapper {
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ p {
   height: 47px;
   width: 208px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px), print {
   .hero__content .download {
     position: relative;
   }
@@ -64,7 +64,7 @@ p {
   line-height: normal;
   padding: 30px 0px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px), print {
   .hero__content .intro {
     order: 0;
   }
@@ -73,8 +73,10 @@ p {
   height: 243px;
   width: 243px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px), print {
   .hero__img {
+    display: flex;
+    flex-direction: column;
     order: -1;
   }
 }
@@ -91,7 +93,7 @@ img {
 }
 
 .new-section {
-  background: #EDF7FA;
+  background: #edf7fa;
 }
 .new-section .posts {
   display: flex;
@@ -125,10 +127,16 @@ img {
 .new-section .posts .new-section {
   padding: 40px;
 }
-.new-section .posts .new-section__wrapper {
+.new-section .posts .new-section_wrapper {
   display: flex;
   background-color: #EDF7FA;
   gap: 30px;
+}
+@media screen and (max-width: 767px), print {
+  .new-section .posts .new-section_wrapper {
+    flex-direction: column;
+    order: 0;
+  }
 }
 .new-section .posts .new-section__left {
   background: #fff;
