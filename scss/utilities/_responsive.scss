@@ -23,7 +23,7 @@ $fullxl: 1600px !default;
   }
 }
 @mixin tablet {
-  @media screen and (min-width: $tablet), print {
+  @media screen and (max-width: $tablet), print {
     @content;
   }
 }
@@ -43,7 +43,7 @@ $fullxl: 1600px !default;
   }
 }
 @mixin desktop {
-  @media screen and (min-width: $desktop) {
+  @media screen and (max-width: $desktop) {
     @content;
   }
 }
@@ -53,7 +53,7 @@ $fullxl: 1600px !default;
   }
 }
 @mixin laptop {
-  @media screen and (min-width: $laptop) {
+  @media screen and (max-width: $laptop) {
     @content;
   }
 }

@@ -1,116 +1,14 @@
 h2 {
-    color: $font-color;
-    font-size:44px;
-    
+  color: $font-color;
+  font-size: 44px;
 }
 
 
 
-button{
-    font-size: 22px;
-    border: hidden;
-}
-.new-section{
-    padding: 40px;
-    &__wrapper{
-        display: flex;
-        background: $color;
-        gap:30px;
-        &__left{
-            background: $background;
-            font-family: $font-family;
-            color: $font-color;
-            font-size:$font-size;
-            padding: 24px;
-        }
-        .new-section__right{
-            background: $background;
-            font-family: $font-family;
-            color: $font-color;
-            font-size:$font-size;
-            padding: 24px;
-        }
-        @include desktop-max{
-            flex-direction: column;
-            order: 0;
-        }
-    }
+p {
+  font-family: $font-family;
+  color: $font-color;
+  font-size: $font-size;
+  padding: 17px;
 }
 
-p{
-    font-family: $font-family;
-    color: $font-color;
-    font-size:$font-size;
-    padding: 17px;
-}
-
-.work{
-    font-size: 22px;
-    padding-top: 30px;
-        
-    @include desktop-max{
-        position: relative;
-        top: 50%;
-        left: 40%;
-        font-size: 33px;
-    }
-  
-}
-    .tasks{
-        display: flex;
-        gap:30px;
-
-        @include desktop-max{
-            display: flex;
-            flex-direction: column;
-        }
-    
-        img{
-            padding: 0px 18px;
-
-            @include desktop-max{
-                order: 0;
-                height: 100%;
-                width: 100%;
-            }
-            
-        }
-
-        .design{
-            padding: 0px 10px;
-
-            @include desktop-max{
-                order: 1;
-            }
-        }
-    
-        a{
-            text-decoration: none;
-            padding-top: 20px;
-
-            @include desktop-max{
-                order: 2;
-            }
-        }
-    
-        .date{
-            background-color: $button-color;
-            color: $background;
-            border-radius:16px;
-            margin-right: 20px;
-
-            @include desktop-max{
-                order: 2;
-            }
-        }
-    
-        .para{
-            color: $light-color;
-            font-family: $font-family;
-            padding: 20px 0px;
-
-            @include desktop-max{
-                order: 3;
-            }
-        }
-}
