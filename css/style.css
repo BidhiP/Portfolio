@@ -157,6 +157,77 @@ img {
   }
 }
 
+.work {
+  font-size: 22px;
+  padding-top: 30px;
+}
+@media screen and (max-width: 767px), print {
+  .work {
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+  }
+}
+
+.tasks {
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 767px), print {
+  .tasks {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.tasks img {
+  padding: 0px 18px;
+}
+@media screen and (max-width: 767px), print {
+  .tasks img {
+    order: -1;
+    height: 100%;
+    width: 100%;
+  }
+}
+.tasks .design {
+  padding: 0px 10px;
+}
+@media screen and (max-width: 767px), print {
+  .tasks .design {
+    order: 0;
+  }
+}
+.tasks a {
+  text-decoration: none;
+  padding-top: 20px;
+}
+@media screen and (max-width: 767px), print {
+  .tasks a {
+    order: 1;
+  }
+}
+.tasks .date {
+  background-color: #142850;
+  color: #fff;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 767px), print {
+  .tasks .date {
+    order: 1;
+  }
+}
+.tasks .para {
+  color: #8695A4;
+  font-family: "Heebo", sans-serif;
+  padding: 20px 0px;
+}
+@media screen and (max-width: 767px), print {
+  .tasks .para {
+    order: 2;
+  }
+}
+
 .container {
   max-width: 1320px;
   width: 100%;
