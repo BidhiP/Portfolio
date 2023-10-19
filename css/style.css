@@ -17,8 +17,52 @@ p {
   .hero {
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.hero__wrapper {
+  display: flex;
+}
+@media screen and (max-width: 767px), print {
+  .hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.hero__content {
+  padding-right: 100px;
+}
+.hero__content .download {
+  background-color: #ff6464;
+  color: white;
+  height: 47px;
+  border: hidden;
+  width: 208px;
+}
+@media screen and (max-width: 767px), print {
+  .hero__content .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 0;
+  }
+}
+.hero__content__img {
+  display: flex;
+  height: 243px;
+  width: 243px;
+}
+@media screen and (max-width: 767px), print {
+  .hero__content__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: -1;
   }
 }
 .hero h1 {
@@ -31,31 +75,7 @@ p {
     order: 1;
   }
 }
-.hero__wrapper {
-  display: flex;
-}
-@media screen and (max-width: 767px), print {
-  .hero__wrapper {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-}
-.hero__content {
-  width: 80%;
-}
-.hero__content .download {
-  background-color: #ff6464;
-  color: white;
-  height: 47px;
-  width: 208px;
-}
-@media screen and (max-width: 767px), print {
-  .hero__content .download {
-    position: relative;
-  }
-}
-.hero__content .intro {
+.hero .intro {
   color: #21243D;
   font-family: "Heebo", sans-serif;
   font-size: 16px;
@@ -65,19 +85,8 @@ p {
   padding: 30px 0px;
 }
 @media screen and (max-width: 767px), print {
-  .hero__content .intro {
+  .hero .intro {
     order: 0;
-  }
-}
-.hero__img {
-  height: 243px;
-  width: 243px;
-}
-@media screen and (max-width: 767px), print {
-  .hero__img {
-    display: flex;
-    flex-direction: column;
-    order: -1;
   }
 }
 
@@ -92,60 +101,68 @@ img {
   border-radius: 50%;
 }
 
-.new-section {
-  background: #edf7fa;
-}
-.new-section .posts {
+.posts {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
-.new-section .posts .true {
+@media screen and (max-width: 767px), print {
+  .posts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.true {
   font-size: 22px;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
 }
 @media screen and (max-width: 767px), print {
-  .new-section .posts .true {
-    position: relative;
-    left: 40%;
+  .true {
     font-size: 33px;
   }
 }
-.new-section .posts a {
+
+a {
   text-decoration: none;
   padding-top: 20px;
 }
 @media screen and (max-width: 767px), print {
-  .new-section .posts a {
+  a {
     display: none;
   }
 }
-.new-section .posts button {
+
+button {
   font-size: 22px;
   border: hidden;
 }
-.new-section .posts .new-section {
+
+.new-section {
   padding: 40px;
-}
-.new-section .posts .new-section_wrapper {
-  display: flex;
   background-color: #EDF7FA;
+}
+.new-section_wrapper {
+  display: flex;
   gap: 30px;
 }
 @media screen and (max-width: 767px), print {
-  .new-section .posts .new-section_wrapper {
+  .new-section_wrapper {
     flex-direction: column;
     order: 0;
   }
 }
-.new-section .posts .new-section__left {
+.new-section__left {
   background: #fff;
   font-family: "Heebo", sans-serif;
   color: #21243D;
   font-size: 16px;
   padding: 24px;
 }
-.new-section .posts .new-section__right {
+.new-section__right {
   background: #fff;
   font-family: "Heebo", sans-serif;
   color: #21243D;
@@ -153,15 +170,9 @@ img {
   padding: 24px;
 }
 @media screen and (max-width: 767px), print {
-  .new-section .posts .new-section {
+  .new-section {
     flex-direction: column;
     order: 0;
-  }
-}
-@media screen and (max-width: 767px), print {
-  .new-section .posts {
-    width: 100%;
-    height: 100%;
   }
 }
 
@@ -233,6 +244,14 @@ img {
 @media screen and (max-width: 767px), print {
   .tasks .para {
     order: 2;
+  }
+}
+
+@media screen and (max-width: 767px), print {
+  .text {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
   }
 }
 
