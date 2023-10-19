@@ -1,6 +1,7 @@
-h2 {
+h1, h2 {
   color: #21243D;
   font-size: 44px;
+  padding-bottom: 20px;
 }
 
 p {
@@ -13,7 +14,7 @@ p {
 .hero {
   padding: 100px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .hero {
     display: flex;
     flex-direction: column;
@@ -24,10 +25,10 @@ p {
 .hero__wrapper {
   display: flex;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .hero__wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
   }
@@ -42,34 +43,20 @@ p {
   border: hidden;
   width: 208px;
 }
-@media screen and (max-width: 767px), print {
-  .hero__content .download {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    order: 0;
+@media screen and (max-width: 767px) {
+  .hero__content {
+    padding: 5px;
   }
 }
-.hero__content__img {
-  display: flex;
+.hero .image {
   height: 243px;
   width: 243px;
-}
-@media screen and (max-width: 767px), print {
-  .hero__content__img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    order: -1;
-  }
 }
 .hero h1 {
   color: #21243D;
   font-size: 44px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .hero h1 {
     display: flex;
     order: 1;
@@ -84,7 +71,7 @@ p {
   line-height: normal;
   padding: 30px 0px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .hero .intro {
     order: 0;
   }
@@ -106,12 +93,21 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .posts {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+.posts a {
+  text-decoration: none;
+  padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .posts a {
+    display: none;
   }
 }
 
@@ -120,19 +116,9 @@ img {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .true {
     font-size: 33px;
-  }
-}
-
-a {
-  text-decoration: none;
-  padding-top: 20px;
-}
-@media screen and (max-width: 767px), print {
-  a {
-    display: none;
   }
 }
 
@@ -149,7 +135,7 @@ button {
   display: flex;
   gap: 30px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .new-section_wrapper {
     flex-direction: column;
     order: 0;
@@ -169,7 +155,7 @@ button {
   font-size: 16px;
   padding: 24px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .new-section {
     flex-direction: column;
     order: 0;
@@ -180,7 +166,7 @@ button {
   font-size: 22px;
   padding-top: 30px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .work {
     display: flex;
     justify-content: center;
@@ -192,7 +178,7 @@ button {
   display: flex;
   gap: 30px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .tasks {
     display: flex;
     flex-direction: column;
@@ -201,7 +187,7 @@ button {
 .tasks img {
   padding: 0px 18px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .tasks img {
     order: -1;
     height: 100%;
@@ -211,18 +197,9 @@ button {
 .tasks .design {
   padding: 0px 10px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .tasks .design {
     order: 0;
-  }
-}
-.tasks a {
-  text-decoration: none;
-  padding-top: 20px;
-}
-@media screen and (max-width: 767px), print {
-  .tasks a {
-    order: 1;
   }
 }
 .tasks .date {
@@ -231,7 +208,7 @@ button {
   border-radius: 16px;
   margin-right: 20px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .tasks .date {
     order: 1;
   }
@@ -241,13 +218,18 @@ button {
   font-family: "Heebo", sans-serif;
   padding: 20px 0px;
 }
-@media screen and (max-width: 767px), print {
+@media screen and (max-width: 767px) {
   .tasks .para {
     order: 2;
   }
 }
 
-@media screen and (max-width: 767px), print {
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
   .text {
     display: flex;
     justify-content: center;

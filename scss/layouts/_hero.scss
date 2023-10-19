@@ -9,10 +9,10 @@
   }
   &__wrapper {
     display: flex;
-  
+
     @include tablet {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       text-align: center;
       justify-content: center;
     }
@@ -25,28 +25,16 @@
       height: 47px;
       border: hidden;
       width: 208px;
-  
-      @include tablet {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        order: 0;
-      }
     }
-    &__img {
-      display: flex;
-      height: 243px;
-      width: 243px;
-      @include tablet {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        order: -1;
-      }
+
+    @include tablet{
+      padding: 5px;
     }
-}
+  }
+  .image {
+    height: 243px;
+    width: 243px;
+  }
   h1 {
     color: $font-color;
     font-size: 44px;
@@ -56,19 +44,17 @@
       order: 1;
     }
   }
-    .intro {
-      color: $font-color;
-      font-family: $font-family;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: $font-weight-600;
-      line-height: normal;
-      padding: 30px 0px;
+  .intro {
+    color: $font-color;
+    font-family: $font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: $font-weight-600;
+    line-height: normal;
+    padding: 30px 0px;
 
-      @include tablet {
-        order: 0;
-      }
+    @include tablet {
+      order: 0;
     }
   }
- 
-
+}

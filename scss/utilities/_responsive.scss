@@ -23,7 +23,7 @@ $fullxl: 1600px !default;
   }
 }
 @mixin tablet {
-  @media screen and (max-width: $tablet), print {
+  @media screen and (max-width: $tablet) {
     @content;
   }
 }

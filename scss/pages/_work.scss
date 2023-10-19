@@ -1,76 +1,73 @@
 .work {
-    font-size: 22px;
-    padding-top: 30px;
-  
-    @include tablet  {
-      display: flex;
-      justify-content: center;
-      font-size: 33px;
-    }
-  }
-  .tasks {
+  font-size: 22px;
+  padding-top: 30px;
+
+  @include tablet {
     display: flex;
-    gap: 30px;
-  
+    justify-content: center;
+    font-size: 33px;
+  }
+}
+.tasks {
+  display: flex;
+  gap: 30px;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    padding: 0px 18px;
+
     @include tablet {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    img {
-      padding: 0px 18px;
-  
-      @include tablet {
-        order: -1;
-        height: 100%;
-        width: 100%;
-      }
-    }
-  
-    .design {
-      padding: 0px 10px;
-  
-      @include tablet {
-        order: 0;
-      }
-    }
-  
-    a {
-      text-decoration: none;
-      padding-top: 20px;
-  
-      @include tablet {
-        order: 1;
-      }
-    }
-  
-    .date {
-      background-color: $button-color;
-      color: $background;
-      border-radius: 16px;
-      margin-right: 20px;
-  
-      @include tablet {
-        order: 1;
-      }
-    }
-  
-    .para {
-      color: $light-color;
-      font-family: $font-family;
-      padding: 20px 0px;
-  
-      @include tablet {
-        order: 2;
-      }
+      order: -1;
+      height: 100%;
+      width: 100%;
     }
   }
 
-  .text{
-    @include tablet{
-      display: flex;
-      justify-content: center;
-      padding-top: 30px;
+  .design {
+    padding: 0px 10px;
+
+    @include tablet {
+      order: 0;
     }
   }
-  
+
+
+
+  .date {
+    background-color: $button-color;
+    color: $background;
+    border-radius: 16px;
+    margin-right: 20px;
+
+    @include tablet {
+      order: 1;
+    }
+  }
+
+  .para {
+    color: $light-color;
+    font-family: $font-family;
+    padding: 20px 0px;
+
+    @include tablet {
+      order: 2;
+    }
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  @include tablet {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+}
+
+

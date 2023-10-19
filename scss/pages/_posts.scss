@@ -8,6 +8,14 @@
     display: flex;
     justify-content: center;
   }
+   a {
+    text-decoration: none;
+    padding-top: 20px;
+
+    @include tablet {
+      display: none;
+    }
+  }
 }
   .true {
     font-size: 22px;
@@ -16,14 +24,6 @@
 
     @include tablet {
       font-size: 33px;
-    }
-  }
-  a {
-    text-decoration: none;
-    padding-top: 20px;
-
-    @include tablet {
-      display: none;
     }
   }
 
