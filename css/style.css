@@ -5,6 +5,7 @@ h1, h2 {
 }
 @media screen and (max-width: 767px) {
   h1, h2 {
+    padding-top: 10px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -59,16 +60,6 @@ p {
 .hero .image {
   height: 243px;
   width: 243px;
-}
-.hero h1 {
-  color: #21243D;
-  font-size: 44px;
-}
-@media screen and (max-width: 767px) {
-  .hero h1 {
-    display: flex;
-    order: 1;
-  }
 }
 .hero .intro {
   color: #21243D;
@@ -263,6 +254,13 @@ button {
   height: 50px;
   width: 100px;
   padding: 1px 2px;
+}
+@media screen and (max-width: 767px) {
+  .icons .icon svg {
+    height: 40px;
+    width: 60px;
+    padding: 5px 3px;
+  }
 }
 
 * {

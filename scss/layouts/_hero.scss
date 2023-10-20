@@ -35,15 +35,7 @@
     height: 243px;
     width: 243px;
   }
-  h1 {
-    color: $font-color;
-    font-size: 44px;
-
-    @include tablet {
-      display: flex;
-      order: 1;
-    }
-  }
+ 
   .intro {
     color: $font-color;
     font-family: $font-family;
